@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
 
+import ArticleListing from "./containers/ArticleListing";
+
 function App() {
   return (
     <div className="App">
-      <div className="hello-world">
-        <h1>Hello World</h1>
-      </div>
+      <ArticleListing />
     </div>
   );
 }
