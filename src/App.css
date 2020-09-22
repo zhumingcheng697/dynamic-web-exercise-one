@@ -1,29 +1,79 @@
-.App {
+.ArticleListing {
   margin: 0 auto;
-  padding: 0;
-  max-width: 1080px;
+  max-width: min(80%, 1080px);
+  padding: 0 10px;
+}
+
+.ArticleListing h1 {
+  font-size: 50px;
+  font-weight: normal;
 }
 
 .ArticleCard {
+  border: solid black 1px;
   display: flex;
   flex-direction: row;
-  padding: 25px 30px;
-  margin: 30px 0;
-  border: solid black 1px;
+  padding: 18px 25px;
+  margin: 40px 0;
+}
+
+.ArticleCard a {
+  font-weight: bold;
+}
+
+.ArticleCard h2 {
+  margin-top: 0;
 }
 
 .ArticleCardImage {
   flex-basis: 30%;
   padding-right: 30px;
-  align-self: center;
 }
 
 .ArticleCardImage img {
+  height: auto;
   width: 100%;
-  /* height: 100%;
-  object-fit: cover; */
 }
 
 .ArticleCardText {
   flex-basis: 70%;
+}
+
+.ArticleCardText p.Date {
+  margin-top: -12px;
+  margin-bottom: 18px;
+  padding-left: 4px;
+}
+
+.ArticleHeader p.Date {
+  margin-top: 2px;
+}
+
+.ArticleHeaderWrapper {
+  background-color: #cccccc;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 55px;
+  padding-top: 65px;
+  padding-bottom: 25px;
+}
+
+.ArticleHeader {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.ArticleHeader h1 {
+  font-size: 50px;
+  font-weight: normal;
+  margin: 0;
+}
+
+p.Blurb {
+  font-size: 20px;
+}
+
+.ArticleBody {
+  margin: 0 auto;
+  max-width: 600px;
 }
