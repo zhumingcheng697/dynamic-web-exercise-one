@@ -13,11 +13,12 @@
   border: solid black 1px;
   display: flex;
   flex-direction: row;
-  padding: 18px 25px;
+  padding: 18px 28px;
   margin: 40px 0;
 }
 
 .ArticleCard a {
+  color: rgb(6, 41, 255);
   font-weight: bold;
 }
 
@@ -27,11 +28,12 @@
 
 .ArticleCardImage {
   flex-basis: 30%;
-  padding-right: 30px;
+  padding-right: 28px;
 }
 
 .ArticleCardImage img {
-  height: auto;
+  height: 100%;
+  object-fit: cover;
   width: 100%;
 }
 
