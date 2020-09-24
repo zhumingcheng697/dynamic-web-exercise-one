@@ -62,7 +62,8 @@
 
 .ArticleHeader {
   margin: 0 auto;
-  max-width: 600px;
+  max-width: min(80%, 600px);
+  padding: 0 10px;
 }
 
 .ArticleHeader h1 {
@@ -77,5 +78,6 @@ p.Blurb {
 
 .ArticleBody {
   margin: 0 auto;
-  max-width: 600px;
+  max-width: min(80%, 600px);
+  padding: 0 10px;
 }
