@@ -9,7 +9,7 @@ import Article from "./containers/Article";
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename="/dynamic-web-exercise-one">
         <Switch>
           <Route path="/article/:id">
             <Article />
